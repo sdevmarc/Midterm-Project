@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: var(--white);
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -41,7 +42,7 @@ body {
 /* HEADER */
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -54,6 +55,10 @@ header {
 
 header .navs a {
     margin: 0 1rem;
+}
+
+header a:hover {
+    color: var(--color-pal);
 }
 
 /* HEADER */
@@ -76,6 +81,16 @@ header .navs a {
     align-items: center;
     flex-direction: column;
     gap: 2em;
+}
+
+.home .title {
+    font-size: 200px;
+    font-weight: 600;
+}
+
+.home .desc {
+    font-size: 25px;
+    font-weight: 400;
 }
 
 /* HOME SECTION */

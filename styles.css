@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
+
+:root {
+    --white: #ffffff;
+    --black1: #000000;
+    --black2: #111111;
+    --black3: #222222;
+    --black4: #333333;
+    --bg: rgba(34, 34, 34, 1);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--black3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(105, 105, 105);
+    border-radius: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+
+/* HEADER */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+header .navs a {
+    margin: 0 1rem;
+}
+
+/* HEADER */
+
+
+/* HOME SECTION */
+
+.home .container {
+    width: 100%;
+    height: 100vh;
+    background: var(--black3);
+}
+
+.home .container .contents {
+    padding: 0 10rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+/* HOME SECTION */
+
+
+
+
+/* ABOUT SECTION */
+
+.about .container {
+    width: 100%;
+    height: 200vh;
+    background: linear-gradient(to top,
+            rgb(59, 29, 29),
+            rgba(34, 34, 34, 1));
+}
+
+.about .container .contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25em;
+}
+
+.about .container .contents .first {
+    width: 100%;
+    text-align: center;
+}
+
+.about .container .contents .first p {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.about .container .contents .second {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.about .contents .second .title {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.about .contents .desc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.about .contents .desc .box {
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    border: 1px solid rgba(34, 34, 34, 1);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.about .contents .desc .box:hover {
+    scale: .9;
+    border: 3px solid rgb(158, 158, 158);
+}
+
+.about .contents .desc .box .image {
+    width: 20rem;
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.about .contents .desc .box img {
+    width: 30rem;
+}
+
+.about .contents .desc .box .details {
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+/* ABOUT SECTION */
+
+
+
+/* SERVICES SECTION */
+
+
+
+
+
+/* SERVICES SECTION */
